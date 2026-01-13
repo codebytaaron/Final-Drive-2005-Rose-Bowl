@@ -1,23 +1,25 @@
 # Final Drive
 
-**Final Drive** is a simple C++ console game inspired by the final drive of the **Texas vs USC 2005 Rose Bowl**. You play as the quarterback on the last possession, making quick decisions with the game on the line.
+Final Drive is a C++ console-based football game inspired by a late-game drive scenario.
 
-The game is a simplified, fictionalized run-off of that moment and is not a recreation of the real game.
+## Overview
 
----
+The game places the player in control of a quarterback during a single high-pressure drive, requiring quick decisions while managing downs and the clock.
 
-## Gameplay
-- Read the defense  
-- Make quarterback decisions  
-- Manage the clock and downs  
-- One drive decides the title  
+The experience is inspired by a historic moment but is simplified and fictionalized.
 
----
+## Usage Notice
+
+This repository is public for visibility and reference only.
+
+Please **do not use, copy, modify, or redistribute this project without contacting me first**.
+
+If you are interested in using this project, extending it, or collaborating, reach out via the link in my bio so I can assist and approve proper usage.
 
 ## Build & Run
 
-To compile and run the game:
+To compile and run:
 
 ```bash
-g++ qb_last_drive.cpp -o qb_last_drive
-./qb_last_drive
+g++ last_drive.cpp -o last_drive
+./last_drive
